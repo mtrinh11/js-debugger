@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
   console.log("Got", result2, "Expected 6");
 
   let z = { width: 5, height: 7};
-  console.log("z is ", z.Width, "inches wide."); //expect "z is 5 inches wide"
+  console.log("z is ", z.width, "inches wide."); //expect "z is 5 inches wide"
 
   let q = 100;
   if(q > 50){
